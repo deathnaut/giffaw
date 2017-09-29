@@ -44,7 +44,7 @@ function getGifUrl(responseData){
 function generateHTML(images){
   console.log('generateHTML function start');
   // option 1
-  var imagesHTML = images.map(function(img) {
+  images.map(function(img) {
     var imgHTML = '<img src="' + img +'">';
     $('.gif-gallery').append(imgHTML);
     return imgHTML;

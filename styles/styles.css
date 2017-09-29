@@ -1,0 +1,33 @@
+body {
+
+}
+
+.gif-gallery {
+  margin-bottom: 60px;
+}
+
+.load-more-container {
+  position:fixed;
+  bottom:0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-stretch: condensed;
+}
+
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+#fidget1, #fidget2 {
+  height: 42px;
+  width: auto;
+}
